@@ -1,0 +1,50 @@
+@import url('http://fonts.cdnfonts.com/css/atari');
+
+body {
+    background-color: #003865;
+}
+
+h1 {
+    font-family: 'Atari', sans-serif;
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+}
+
+div {
+    margin-left: 33rem;
+}
+
+div button{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 30px;
+    border-width: 12px;
+    margin: 25px 25px 0 0;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+
+#green {
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
+
+.pressed {
+    box-shadow: 0 0 50px white;
+    background-color: grey;
+}
